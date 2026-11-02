@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Prem Kumar Rajak, an aspiring web developer.">
+  <title>Prem Kumar Rajak | Web Developer Portfolio</title>
+  <link rel="stylesheet" href="task4.css">
+  <script src="task4.js" defer></script>
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="#home" class="logo">Portfolio<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="navMenu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="tag">HELLO, WELCOME TO MY PORTFOLIO</p>
+        <h1>Hi, I'm <br><span>Prem Kumar Rajak</span></h1>
+        <h2>Aspiring Web Developer</h2>
+        <p>
+          I enjoy building modern websites, learning new technologies,
+          and turning creative ideas into practical projects.
+        </p>
+        <ul class="chips">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Python</li>
+          <li>FastAPI</li>
+          <li>SQLite</li>
+        </ul>
+        <div class="buttons">
+          <a class="btn" href="#projects">See My Projects</a>
+          <a class="btn secondary" href="#contact">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="profile-wrap">
+        <img
+          src="portfolio.jpeg"
+          alt="Prem Kumar Rajak"
+          class="profile-photo">
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <p class="tag">GET TO KNOW ME</p>
+      <h2>About Me</h2>
+      <p class="section-intro">
+        I'm a B.Tech student who enjoys technology, problem-solving and
+        building useful things on the web.
+      </p>
+
+      <div class="about-grid">
+        <article class="card">
+          <h3>My Background</h3>
+          <p>
+            I started with HTML and CSS and then moved on to JavaScript
+            and Python. I learn mostly by building projects and improving
+            them step by step.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Education</h3>
+          <p>
+            <strong>Course:</strong> B.Tech, 2nd year<br>
+            <strong>College:</strong> Jai Narain College of Technology (JNCT), Bhopal 
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Experience</h3>
+          <p>
+            <strong>Web Development Intern</strong><br>
+            During my internship I built an interactive navigation menu
+            (HTML, CSS, JavaScript) and this portfolio website. My goal is to
+            become a full-stack developer.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section alternate">
+      <p class="tag">WHAT I WORK WITH</p>
+      <h2>My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Python</div>
+        <div class="skill">FastAPI</div>
+        <div class="skill">SQLite</div>
+      </div>
+      <p class="note">I'm still learning, and I'm improving these skills with every project.</p>
+    </section>
+
+    <section id="projects" class="section">
+      <p class="tag">MY RECENT WORK</p>
+      <h2>Featured Projects</h2>
+
+      <div class="project-grid">
+        <article class="card">
+          <div class="project-icon">🛡️</div>
+          <h3>SAFEZONE Laboratory Monitoring Safety</h3>
+          <p>
+            A SAFEZONE system designed to monitor gas, temperature,
+            humidity conditions, with a web dashboard for readings.
+          </p>
+          <p class="tech">Python | FastAPI | SQLite</p>
+          <a href="#contact" class="project-link">Ask about this project →</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="achievements" class="section alternate">
+      <p class="tag">WHAT I'VE DONE</p>
+      <h2>Achievements</h2>
+      <div class="about-grid">
+        <article class="card">
+          <h3>Personal projects</h3>
+          <p>Built a Laboratory Monitoring System.</p>
+        </article>
+        <article class="card">
+          <h3>Internship tasks</h3>
+          <p>Finished an interactive navigation menu and a personal portfolio website.</p>
+        </article>
+        <article class="card">
+          <h3>Learning FastAPI</h3>
+          <p>Learning to build APIs with Python and store data with SQLite.</p>
+        </article>
+      </div>
+    </section>
+    <section id="contact" class="section">
+      <p class="tag">LET'S CONNECT</p>
+      <h2>Contact Me</h2>
+      <p class="section-intro">
+        Have a project idea or want to connect? Find me online.
+      </p>
+      <div class="contact-links">
+        <a href="https://github.com/" target="_blank"
+          rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/prem-kumar-rajak-/" target="_blank"
+          rel="noopener noreferrer">LinkedIn</a>
+        <a href="mailto:rajakprem94972@gmail.com">Email Me</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Prem Kumar Rajak. Built with HTML, CSS &amp; JavaScript.</p>
+  </footer>
+
+</body>
+</html>
