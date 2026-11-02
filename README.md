@@ -15,8 +15,8 @@ The website showcases my skills, projects, and professional journey through a cl
 - Responsive website design
 
 ## Technologies Used
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 
 ## Internship Details
